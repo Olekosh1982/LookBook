@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
 
-*{
+ * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -15,6 +16,15 @@ body{
 .wrapper{
   width: 1280px;
   margin: 50px auto;
+}
+header {
+  height: 50px;
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  background: #fafafa;
 }
 
 header .logo{
@@ -69,6 +79,21 @@ header .presentation::before{
   font-weight: 300;
   color: #fff;
 }
+main{
+  display:flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+h3{
+  margin-bottom: 1rem;
+}
+section ul {
+  list-style: none;
+}
+
+
+
 footer{
   text-align: center;
   margin: 100px;
