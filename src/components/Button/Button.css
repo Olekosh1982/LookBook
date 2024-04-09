@@ -11,6 +11,9 @@ margin-right: 8 rem;
   opacity: 0.8;
 }
 .button.active{
-  background: #14e749;
-  color: #fff;
+  background: #f3f5f4;
+  color: #120202;
+}
+.button.active.icon {
+  float: right;
 }
